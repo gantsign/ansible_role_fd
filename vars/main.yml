@@ -1,2 +1,9 @@
 ---
-# vars file for ansible_role_fd
+# Mirror to download the fd from
+fd_mirror: 'https://github.com/sharkdp/fd/releases/download/v{{ fd_version }}'
+
+# File name of the fd redistributable package
+fd_redis_filename: 'fd_{{ fd_version }}_amd64.deb'
+
+# URL of the fd redistributable package
+fd_redis_url: '{{ fd_mirror }}/{{ fd_redis_filename }}'

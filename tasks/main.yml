@@ -1,2 +1,19 @@
 ---
-# tasks file for ansible_role_fd
+- name: create download directory
+  file:
+    state: directory
+    mode: 'u=rwx,go=rx'
+    dest: '{{ fd_download_dir }}'
+
+- name: download fd
+  get_url:
+    url: '{{ fd_redis_url }}'
+    checksum: 'sha256:{{ fd_redis_sha256sum }}'
+    dest: '{{ fd_download_dir }}/{{ fd_redis_filename }}'
+    force: no
+    mode: 'u=rw,go=r'
+
+- name: install fd
+  become: yes
+  apt:
+    deb: '{{ fd_download_dir }}/{{ fd_redis_filename }}'

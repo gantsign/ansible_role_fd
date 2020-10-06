@@ -11,7 +11,7 @@ user-friendly alternative to `find`.
 Requirements
 ------------
 
-* Ansible >= 2.7
+* Ansible >= 2.8
 
 * Linux Distribution
 

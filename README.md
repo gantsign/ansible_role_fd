@@ -1,7 +1,7 @@
 Ansible Role: fd
 ================
 
-[![Build Status](https://travis-ci.com/gantsign/ansible_role_fd.svg?branch=master)](https://travis-ci.com/gantsign/ansible_role_fd)
+[![Tests](https://github.com/gantsign/ansible_role_fd/workflows/Tests/badge.svg)](https://github.com/gantsign/ansible_role_fd/actions?query=workflow%3ATests)
 [![Ansible Galaxy](https://img.shields.io/badge/ansible--galaxy-gantsign.fd-blue.svg)](https://galaxy.ansible.com/gantsign/fd)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/gantsign/ansible_role_fd/master/LICENSE)
 

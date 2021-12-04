@@ -19,8 +19,9 @@ Requirements
 
         * Debian
 
-            * Jessie (8)
             * Stretch (9)
+            * Buster (10)
+            * Bullseye (11)
 
         * Ubuntu
 

@@ -1,9 +1,9 @@
 ---
 # fd version number
-fd_version: '8.5.2'
+fd_version: '8.5.3'
 
 # The SHA256 of the fd redistributable package
-fd_redis_sha256sum: 'cab5653f96389104ffac98c6078a50428a9f41430287b27160d6117c79352d8b'
+fd_redis_sha256sum: '27c8205caf8706f6281350fa5abcb77437918b8a584843a3d4f80a80ae58fc3d'
 
 # Directory to store files downloaded for fd
 fd_download_dir: "{{ x_ansible_download_dir | default(ansible_env.HOME + '/.ansible/tmp/downloads') }}"

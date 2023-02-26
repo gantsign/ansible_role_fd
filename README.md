@@ -38,10 +38,10 @@ are shown below):
 
 ```yaml
 # fd version number
-fd_version: '8.6.0'
+fd_version: '8.7.0'
 
 # The SHA256 of the fd redistributable package
-fd_redis_sha256sum: 'c5bb47a0e6d231f861bcce2cf98a8e51509f347eedf9a8c0dd84b86a1f708084'
+fd_redis_sha256sum: 'ea3ef84bfd90c483125dfe4b50af86b405857389340159e401f63eec5cabaf80'
 
 # Directory to store files downloaded for fd
 fd_download_dir: "{{ x_ansible_download_dir | default(ansible_env.HOME + '/.ansible/tmp/downloads') }}"
